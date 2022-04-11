@@ -56,6 +56,19 @@ con los empleados que componen el equipo; mediante esta tabla se va a guiar el a
 | horas     | numérico, float         |
 | cambios   | str, categórico ordinal |
 
+> Se examina la información que compone el dataframe y 
+se procede a limpiar la información.
+* los labels se pasan a minúscula y separados por guión bajo.
+* se renombra las columnas que se cree pertinente
+* se eliminan columnas que no aportan al análisis
+* se transforma la columna fecha a datetime
+* se elimina las entradas mayores a 8 horas por tarea
+
+> Análisis
+* se generan mask para filtros y poder crear dataframe en base a criterios, se utilizó la fecha como las categorías para generar los mismos.
+* mediante los dataframe filtrados se crean las variables para reportar las horas de acuerdo a dichos criterios y poder comparar la dedicación del área.
+
+
 ## Conclusiones
 
 
