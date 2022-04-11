@@ -42,7 +42,7 @@ Se procede a clasificar los servicios de un área de gran importancia como es la
 | horas     | numérico, float         |
 | cambios   | str, categórico ordinal |
 
-###Categorías:
+#### Categorías:
 
 De las 1056 horas de la muestra se observa que 374 horas el equipo de diseño le dedica al servicio de Social Media mientras que en el servicio de Ads
 se registran 69 horas. También se observa que la categoría reuniones es la segunda con mayor cantidad de horas dedicadas por el equipo con un total de 294 horas.
